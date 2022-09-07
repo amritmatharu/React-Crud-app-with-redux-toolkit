@@ -36,3 +36,272 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  text-align: center;
+}
+h1 {
+  padding: 0 30px;
+}
+#card-body {
+  display: inline-flex;
+  padding: 10px;
+  margin: 30px 30px;
+  border: 5px solid rgb(93, 171, 207);
+  border-radius: 8px;
+  background: lightblue;
+}
+.FancyBorder {
+  padding: 10px 10px;
+  border: 10px solid;
+}
+
+.FancyBorder-blue {
+  border-color: blue;
+}
+
+.Dialog-title {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.Dialog-message {
+  font-size: larger;
+}
+.FancyBorder-blue h1 {
+  padding: 0;
+}
+html,
+body,
+#root {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.SplitPane {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+
+.SplitPane-left {
+  float: left;
+  width: 30%;
+  height: 100%;
+}
+
+.SplitPane-right {
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+
+.Contacts {
+  width: 100%;
+  height: 100%;
+  background: lightblue;
+  padding: 5px;
+}
+
+.Chat {
+  width: 100%;
+  height: 100%;
+  background: pink;
+  padding: 5px;
+}
+.site-page-header,
+add-div {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3c0080;
+  color: white;
+}
+.ant-layout-content,
+.products-for-cart {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #ececec;
+  box-shadow: 0 1px 8px rgb(0 0 0 / 20%);
+  background-color: #f4f0fa;
+}
+.add-product-form {
+  width: 100%;
+  margin: 30px;
+}
+.view-product-form {
+  width: 80%;
+  margin: 0 auto;
+}
+.site-page-header h1 {
+  color: white;
+  margin: 0;
+}
+.site-page-header nav {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+  padding: 0 30px;
+}
+
+.site-page-header nav a {
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.todo-div {
+  display: flex;
+  margin: 0 auto;
+  background-color: #eee;
+  padding: 25px;
+}
+.add-div {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0;
+  border: 1px solid #ececec;
+}
+.add-div h1 {
+  padding: 0;
+  margin: 0;
+}
+.add-div h3 {
+  margin: 0 0 10px;
+}
+.todo-div li {
+  list-style: none;
+  border: 1px solid grey;
+  padding: 5px;
+  width: auto;
+  background-color: white;
+}
+input,
+textarea {
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 5px;
+  box-sizing: border-box;
+  margin: 0;
+  font-variant: tabular-nums;
+  list-style: none;
+  font-feature-settings: "tnum";
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  min-width: 0;
+  padding: 4px 11px;
+  color: #000000d9;
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+button {
+  font-size: 1.25rem;
+  background-color: #ffbb00;
+  border: 1px solid #ffbb00;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  color: #2c2922;
+  margin: 0 10px;
+}
+form button {
+  width: 40%;
+  margin: 10px 0;
+}
+.list-items {
+  padding: 5px;
+  border: 1px solid grey;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+.list-items .left-li {
+  /* display: flex;*/
+  flex: 1;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.list-items button {
+  padding: 0px;
+  margin-left: 10px;
+  border: none;
+  align-content: normal;
+  background-color: transparent;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  text-align: left;
+  background-color: #f4f0fa;
+}
+.card img {
+  width: 30%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 20px;
+  font-size: 1.5rem;
+}
+.add-product {
+  display: flex;
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  text-align: end;
+  font-weight: 500;
+  width: auto;
+  margin: 0 auto;
+  justify-content: center;
+}
+form label {
+  padding: 5px 0;
+  font-size: 1rem;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.invalid-feedback {
+  display: flex;
+  color: red;
+}
+.price {
+  border-radius: 30px;
+  padding: 0.15rem 1.5rem;
+  background-color: rgb(58, 58, 58);
+  color: white;
+}
+.add-to-cart-btn {
+  padding: 5px 10px;
+  margin: 0 10px;
+}
+.product-info {
+  font-size: 16px;
+}
+.all-products-list .ant-list-item {
+  padding: 12px !important;
+  background-color: #f4f0fa !important;
+}
+.all-products-list .ant-list-item:hover {
+  background-color: grey;
+  background-image: linear-gradient(to bottom right, #babec2, #f8f4f8);
+}
